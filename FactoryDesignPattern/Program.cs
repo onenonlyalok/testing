@@ -6,7 +6,7 @@ namespace FactoryDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! Changed");
         }
 
         //static void Main(string[] args)
