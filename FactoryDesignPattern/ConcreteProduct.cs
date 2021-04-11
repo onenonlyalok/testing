@@ -19,4 +19,12 @@ namespace FactoryDesignPattern
             Console.WriteLine("Drive the Scooter : " + miles.ToString() + "km");
         }
     }
+
+    public class Car: IFactory
+    {
+        public void Drive(int miles)
+        {
+            Console.WriteLine("Drive the Car : " + miles.ToString() + "km");
+        }
+    }
 }

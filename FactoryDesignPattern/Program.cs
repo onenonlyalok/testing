@@ -17,7 +17,10 @@ namespace FactoryDesignPattern
             scooter.Drive(10);
 
             IFactory bike = factory.GetVehicle("Bike");
-            bike.Drive(10);
+            bike.Drive(20);
+
+            IFactory car = factory.GetVehicle("Car");
+            car.Drive(30);
 
             Console.ReadKey();
         }
